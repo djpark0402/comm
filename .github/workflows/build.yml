@@ -21,4 +21,4 @@ jobs:
       run: xcodebuild build -project ./DIDCommunicationSDK.xcodeproj -scheme DIDCommunicationSDK -destination "platform=iOS Simulator,name=iPhone 15,OS=latest"
       
     - name: Run tests
-      run: xcodebuild clean test -project ./DIDCommunicationSDK.xcodeproj -scheme DIDCommunicationSDK -destination "platform=iOS Simulator,name=iPhone 15,OS=latest"
+      run: xcodebuild clean test -project ./DIDCommunicationSDK.xcodeproj -scheme DIDCommunicationSDKTests -destination "platform=iOS Simulator,name=iPhone 15,OS=latest"
