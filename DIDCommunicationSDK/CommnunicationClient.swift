@@ -1,7 +1,7 @@
 /*
  * Copyright 2024 Raonsecure
  */
-
+// IMS-772 진행중
 import Foundation
 
 public class CommnunicationClient: CommnunicationProtocol {
