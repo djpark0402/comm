@@ -1,14 +1,14 @@
 /*
  * Copyright 2024 Raonsecure
  */
-
+// IMS-772 진행중
 import Foundation
 
 public class CommnunicationClient: CommnunicationProtocol {
     
     // 
     public init() {
-        
+        print("init")
     }
     
     /// Retrieves data from the specified URL in an asynchronous manner using the GET method.
