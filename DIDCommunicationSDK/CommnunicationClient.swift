@@ -6,7 +6,7 @@ import Foundation
 
 public class CommnunicationClient: CommnunicationProtocol {
     
-    // 
+    
     public init() {
         print("init")
     }
